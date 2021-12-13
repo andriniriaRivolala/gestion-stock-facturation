@@ -1,0 +1,44 @@
+#regle{
+    animation-name:  fond;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+@keyframes fond{
+    0%{
+        background-color: black;
+        color: rgb(235, 233, 230);
+    }
+    25%{
+        background-color: rgb(235, 233, 230);
+    }
+    50%{
+        background-color:black;
+    }
+    100%{
+        background-color: rgb(235, 233, 230);
+    }
+}
+
+#load{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+#btn-flex{
+   display: flex; 
+   flex-wrap: wrap; 
+   justify-content: space-around;
+}
+
+#checkToutLink{
+    color: white;
+}
+
+#checkToutLink:hover{
+    color: darkgrey;
+    cursor: pointer;
+}
+

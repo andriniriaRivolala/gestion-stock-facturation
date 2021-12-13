@@ -1,0 +1,14 @@
+#checkToutLink{
+    color: white;
+}
+
+#checkToutLink:hover{
+    color: darkgrey;
+    cursor: pointer;
+}
+
+#btn-flex{
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-around;
+ }

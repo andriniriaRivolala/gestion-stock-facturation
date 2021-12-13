@@ -1,0 +1,22 @@
+
+/*--------------------------------------------------------------
+# coprs du site
+--------------------------------------------------------------*/
+
+/* tableau de bord */
+
+.bord{
+    box-shadow: 1px 2px 5px 2px rgb(109, 104, 104);
+}
+
+/* Responsive de taille ecran phone et tablette corps */
+@media screen and (max-width: 768px) {
+    .corps{
+        margin-top: 40px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .corps{
+        margin-top: 40px;
+    }
+}

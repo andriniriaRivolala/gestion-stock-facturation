@@ -1,0 +1,43 @@
+#prixcard{
+   position: absolute;
+   bottom:205px;
+   left: 105px;
+}
+
+.imgproduit{
+    cursor: pointer;
+}
+
+#ajouter-produit{
+    cursor: pointer;
+}
+
+#ajouter-produit:hover{
+    box-shadow: 0 4px 4px 0 white, 0 4px 2px 0 white;
+    transform: translateY(-5px);
+}
+
+#load{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+#flex-container{
+    box-sizing: border-box;
+    display:flex;  
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Responsive de taille ecran Desktop en tete */
+@media screen and (min-width: 432px) {
+    #flex-container{
+        display:flex;  
+        justify-content: start;
+        flex-wrap: wrap;
+    }
+}
+
+
+

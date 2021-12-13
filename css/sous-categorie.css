@@ -1,0 +1,11 @@
+#select:hover{
+    cursor: pointer;
+}
+
+/* Responsive de taille ecran phone et tablette en tete*/
+@media screen and (max-width: 768px) {
+    #icon {
+        display: none;
+    }
+
+}
